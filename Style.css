@@ -1,0 +1,131 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+header {
+    margin: 44px 0 144px 76px;
+}
+
+.link_header {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #989D9C;
+    margin-right: 23px;
+}
+
+.login {
+    border-radius: 20.5px;
+    background-color: #665AE1;
+    width: 130px;
+    height: 41px;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    border: none;
+}
+
+.logo-imagem {
+    Width: 568px;
+    Height: 500px;
+    margin-left: 125px;
+    display: inline-block;
+}
+
+section {
+    display: inline-block;
+    margin-left: 86px;
+}
+
+h1 {
+    font-size: 100px;
+    font-weight: 900;
+    line-height: 122px;
+    color: #515151;
+}
+
+h2 {
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 71px;
+    color: #515151;
+}
+
+p {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    Width: 515px;
+    margin-top: 32px;
+    margin-bottom: 80px;
+    color: #848484;
+}
+
+.botão_explorar {
+    width: 239px;
+    height: 64px;
+    border-radius: 50px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    background: #ADFF00;
+    border: none;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    color: #000000;
+}
+
+@media screen and (max-width: 720px) {
+
+    header {
+        margin: 44px 0 0px 30px;
+    }
+
+    .link_header {
+        display: none;
+    }
+    .login {
+        display: none;
+    }
+    .logo-imagem {
+        Width: 354px;
+        Height: 317px;
+        margin: 149px 22px 0px 14px;
+    }
+
+    h1 {
+        Width: 263px;
+        Height: 52px;
+        font-size: 50px;
+        font-weight: 900;
+        line-height: 61px;
+        color: #515151;
+    }
+
+    h2 {
+        width: 232px;
+        height: 37px;
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 36px;
+        margin: 7px 16px 17px 10px;
+        color: #515151;
+    }
+p {
+    display: none;
+}
+    .botão_explorar {
+        width: 147px;
+        height: 26.02px;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 34px;
+        color: #000000;
+        width: 239px;
+        height: 64px;
+        border-radius: 50px;
+    }
+}
